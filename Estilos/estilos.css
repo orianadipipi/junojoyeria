@@ -4,22 +4,18 @@
 }
 
 .navbar .img-fluid {
-  height: 30px;
-  margin: 2px;
-}
-
-.navbar .navbar-light .navbar-nav .nav-link {
-  font-family: 'Montserrat', sans-serif;
-  color: #f1f1f1;
-  font-size: 1.125rem;
+  padding: 10px;
+  width: 130px;
 }
 
 .navbar .navbar-light .navbar-toggler {
-  border-color: #f1f1f1;
+  border-color: #E6E6F5;
 }
 
 .navbar li a {
+  font-family: 'Montserrat', sans-serif;
   color: #E6E6F5;
+  font-size: 1.125rem;
 }
 
 /* Barra de Navegacion */
@@ -28,22 +24,18 @@
 }
 
 .navbar .img-fluid {
-  height: 30px;
-  margin: 2px;
-}
-
-.navbar .navbar-light .navbar-nav .nav-link {
-  font-family: 'Montserrat', sans-serif;
-  color: #f1f1f1;
-  font-size: 1.125rem;
+  padding: 10px;
+  width: 130px;
 }
 
 .navbar .navbar-light .navbar-toggler {
-  border-color: #f1f1f1;
+  border-color: #E6E6F5;
 }
 
 .navbar li a {
+  font-family: 'Montserrat', sans-serif;
   color: #E6E6F5;
+  font-size: 1.125rem;
 }
 
 body {
