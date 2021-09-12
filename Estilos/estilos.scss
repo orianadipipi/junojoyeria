@@ -21,6 +21,42 @@ body{
     color:$oscuro;
     text-align: left;
 }
+.carruselContainer .botonUno {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid #edf3f7 2px;
+    }
+    @media all and (max-width:30em){
+         a.botonUno{
+          display:block;
+          margin:0.4em auto;
+  }
+    }
+.carruselContainer .botonUno:hover {
+    background-color: #c7e5e8a8;
+  }
+.seccionDos{
+    background-color: #E8E2DB;
+}
+.semiCirculo{
+position: relative;
+width: 770px;
+height: 385px;
+left: 298px;
+top: 0px;
+margin: 0%;
+}
 .sectionDos{
     margin: 12.8% 0;
     display: grid;

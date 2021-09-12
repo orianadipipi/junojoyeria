@@ -6,12 +6,20 @@
         padding: 10px;
         width: 130px;
         }
-    .navbar-light .navbar-toggler {
-        border-color: #E6E6F5;
+     .navbar-toggler .navbar-toggler-icon {
+        border-color: $claro;
+        background-color: transparent;
+
         }
     li a {
-        font-family: 'Montserrat', sans-serif;
-        color:#E6E6F5;
-        font-size: 1.125rem;
-        }
+            font-family: 'Montserrat', sans-serif;
+            color: $oscuro;
+            font-size: 1.125rem;
+            }
+    a:visited {
+            color: $blanco;
+    }
+    a:hover {
+            color: $naranja ;
+          }    
     }
