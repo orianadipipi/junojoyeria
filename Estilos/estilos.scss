@@ -1,0 +1,44 @@
+@import "./paletaDeColores";
+@import "header";
+@import "paginas";
+
+body{
+    background-color: $fondo;
+}
+.presentacionTitulo{
+    color: $verde;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4em;
+    text-align: left;
+    margin-right: 15%;
+    margin-top: 20%;
+
+}
+.presentacionTexto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color:$oscuro;
+    text-align: left;
+}
+.sectionDos{
+    margin: 12.8% 0;
+    display: grid;
+    place-items: right;
+}
+.light-container{
+    background-color:$textos;
+}
+a:link{
+    color: $oscuro;
+}
+a:visited {
+    color: $claro;
+}
+.imagenBack{
+    position: absolute;
+    width: 341px;
+    height: 497px;
+    left: 743px;
+    top: 144px;
+}

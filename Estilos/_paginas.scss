@@ -1,0 +1,98 @@
+@import "./paletaDeColores";
+@import "header";
+
+body{
+    background-color: $fondo;
+}
+h5{ 
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(34, 96, 81);
+    margin-left: 10px;
+    text-align: center;
+}
+.textos2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    color: $oscuro;
+    margin-left: 10px;
+  }
+  /* FORMS */
+.form-floating{
+    width: 40%;
+}
+.aboutUS{
+    margin: 90px;
+}
+.seccionDos{
+    background-image: none;
+}
+                            //PAGINA PRODUCTOS 
+.gridContainer1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    grid-auto-rows: minmax(240px,auto);
+    gap:20px;
+    padding:20px;
+    grid-auto-flow: dense;
+}
+.gridItem{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ .tamImg{
+    width: 100%;
+    height: 100%;
+ }
+                            // PAGINA CUIDADOS
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    color: $oscuro;
+    background: $claro;
+    width: 250px;
+    position: relative;
+    margin: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(34, 34, 34, 0.5);
+    text-align: center;
+    padding: 2em;
+  }
+  .presentacionCuidados{
+    color: $naranja;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4em;
+    text-align: left;
+    margin-right: 15%;
+    margin-top: 20%;
+}
+// FOOTER
+footer{
+    border-top: 1px solid rgb(77, 45, 45);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: $oscuro;
+    bottom: 0;  
+    padding: 1em; 
+    text-align: center;
+}
