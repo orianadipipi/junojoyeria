@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Barra de Navegacion */
 .navbar {
   margin: 2px;
@@ -238,13 +237,6 @@ body {
   cursor: pointer;
   border-radius: 5px;
   border: solid #edf3f7 2px;
-}
-
-@media all and (max-width: 30em) {
-   a.botonUno {
-      display: block;
-      margin: 0.4em auto;
-  }
 }
 
 .carruselContainer .botonUno:hover {
