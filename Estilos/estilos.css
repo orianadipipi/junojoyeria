@@ -94,11 +94,6 @@ h5 {
   margin-left: 10px;
 }
 
-/* FORMS */
-.form-floating {
-  width: 40%;
-}
-
 .aboutUS {
   margin: 90px;
 }
@@ -274,14 +269,5 @@ a:visited {
   height: 497px;
   left: 743px;
   top: 144px;
-}
-
-.accordion-button {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3em;
-  color: #6c5050;
-  border-color: #6c5050;
-  background-color: transparent;
 }
 /*# sourceMappingURL=estilos.css.map */
