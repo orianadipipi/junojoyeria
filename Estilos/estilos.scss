@@ -5,22 +5,18 @@
 body{
     background-color: $fondo;
 }
-.presentacionTitulo{
-    color: $verde;
+.presentacionTitulo {
+    color: #596149;
     font-family: 'Cormorant Garamond', serif;
     font-size: 4em;
-    text-align: left;
-    margin-right: 15%;
-    margin-top: 20%;
-
-}
-.presentacionTexto{
+    margin-top: 5%;
+  }
+.presentacionTexto {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    color:$oscuro;
-    text-align: left;
-}
+    color: #6c5050;
+  }
 .carruselContainer .botonUno {
     position: absolute;
     top: 80%;

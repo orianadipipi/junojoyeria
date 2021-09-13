@@ -208,9 +208,7 @@ body {
   color: #596149;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4em;
-  text-align: left;
-  margin-right: 15%;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .presentacionTexto {
@@ -218,7 +216,6 @@ body {
   font-size: 2rem;
   font-weight: 400;
   color: #6c5050;
-  text-align: left;
 }
 
 .carruselContainer .botonUno {
