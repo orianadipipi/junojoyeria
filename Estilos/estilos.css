@@ -270,18 +270,21 @@ a:visited {
   left: 743px;
   top: 144px;
 }
-.accordion-button{
-  font-family: 'Montserrat', 'sans-serif';
+
+.accordion-button {
+  font-family: 'Montserrat','sans-serif';
   background-color: transparent;
-  color: #226051;
-}
-.accordion-body {
-  font-family: 'Montserrat', 'sans-serif';
-  background-color: transparent;
-}
-.accordion-button:not(.collapsed) {
-  color: #CC5D2F;
-  box-shadow: transparent;
+  color: #596149;
 }
 
+.accordion-body {
+  font-family: 'Montserrat','sans-serif';
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #CC5D2F;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+}
 /*# sourceMappingURL=estilos.css.map */

@@ -64,3 +64,16 @@ a:visited {
     left: 743px;
     top: 144px;
 }
+.accordion-button{
+    font-family: 'Montserrat','sans-serif' ;
+    background-color: transparent;
+    color: #596149
+}
+.accordion-body{
+    font-family: 'Montserrat','sans-serif' ;
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed){
+    color: $naranja;
+    box-shadow: transparent;
+}
